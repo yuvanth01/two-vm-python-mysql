@@ -5,7 +5,7 @@ conn = mysql.connector.connect(
     host=os.getenv("DB_HOST"),
     user=os.getenv("DB_CLIENT_USER"),
     password=os.getenv("DB_CLIENT_PASSWORD"),
-    database="companydb"
+    database="mydatabase"
 )
 
 cursor = conn.cursor()
